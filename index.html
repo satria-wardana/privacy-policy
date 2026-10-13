@@ -1,45 +1,50 @@
 <!doctype html>
 <!--
-  Kebijakan Privasi "PDF View & Editor Pro" (id.mobimokids.pdfpro).
-  Sebelum diunggah: ganti MOBIMOKIDS dan mobimokids@gmail.com (muncul di versi Indonesia dan Inggris).
-  Halaman ini mandiri (tanpa font/script eksternal), jadi bisa langsung di-host di GitHub Pages,
-  Firebase Hosting, atau situs Anda sendiri. Tambahkan ?lang=en atau #en untuk membuka versi Inggris.
+  Kebijakan Privasi umum untuk semua aplikasi Android MOBIMOKIDS.
+
+  Menambah aplikasi baru: salin satu blok <section class="app-card"> di bagian 2, di versi Indonesia (id="id")
+  DAN versi Inggris (id="en"); template ada di komentar tepat di bawah kartu PDF View & Editor Pro.
+  Jika aplikasi baru memakai layanan atau izin yang belum disebut di halaman ini (misalnya kamera, lokasi,
+  login, atau server sendiri), tulis di kartunya dan perbarui tanggal "Terakhir diperbarui" (ada di header
+  dan di script paling bawah).
+
+  Tautan langsung ke satu aplikasi: privacy-policy.html#id-app-pdfpro (Indonesia) atau #en-app-pdfpro (Inggris).
+  Versi Inggris: tambahkan ?lang=en atau #en. Halaman ini mandiri (tanpa font/script eksternal).
 -->
 <html lang="id">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kebijakan Privasi – PDF View &amp; Editor Pro</title>
-<meta name="description" content="Kebijakan Privasi aplikasi Android PDF View &amp; Editor Pro: dokumen diproses di perangkat, iklan Google AdMob, dan statistik Google Analytics for Firebase.">
-<meta name="theme-color" content="#D32F2F">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72"%3E%3Crect x="0" y="0" width="108" height="108" fill="%23E53935"/%3E%3Cpath fill="%23FFFFFF" d="M38,30h22l14,14v32c0,2.2 -1.8,4 -4,4H38c-2.2,0 -4,-1.8 -4,-4V34c0,-2.2 1.8,-4 4,-4z"/%3E%3Cpath fill="%23FFCDD2" d="M60,30v10c0,2.2 1.8,4 4,4h10z"/%3E%3Cpath fill="%23D32F2F" fill-rule="evenodd" d="M42.8,56.5V44.5H45.8A3.7,3.7 0 0 1 45.8,51.9H45.4V56.5ZM45.4,47.1H45.8A1.1,1.1 0 0 1 45.8,49.3H45.4ZM50.9,44.5H53.7A4.5,4.5 0 0 1 58.2,49V52A4.5,4.5 0 0 1 53.7,56.5H50.9ZM53.5,47.1H53.7A1.9,1.9 0 0 1 55.6,49V52A1.9,1.9 0 0 1 53.7,53.9H53.5ZM59.6,56.5V44.5H65.2V47.1H62.2V49.3H64.4V51.9H62.2V56.5Z"/%3E%3Cpath fill="none" stroke="%231A237E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M44,73c3,-7 6,-13 8,-11.5 2,1.5 -4,12.5 -1.6,12.8 2,0.3 4.2,-6.5 5.8,-6 1.4,0.5 -0.4,4.5 1,4.8 1.4,0.3 2.8,-2.4 4.3,-2.4 1.1,0 1.1,1.5 2.8,1.5"/%3E%3C/svg%3E">
+<title>Kebijakan Privasi – MOBIMOKIDS</title>
+<meta name="description" content="Kebijakan Privasi untuk aplikasi Android MOBIMOKIDS: konten diproses di perangkat, iklan Google AdMob, dan statistik Google Analytics for Firebase.">
+<meta name="theme-color" content="#283593">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23283593' d='M12 1.8 3.8 4.9v6c0 5.3 3.5 10 8.2 11.3 4.7-1.3 8.2-6 8.2-11.3v-6z'/%3E%3Cpath fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' d='m8.3 12.1 2.6 2.6 4.8-5.1'/%3E%3C/svg%3E">
 <style>
   :root {
-    --bg: #f6f7f9;
+    --bg: #f5f6fa;
     --card: #ffffff;
     --text: #1f2328;
     --muted: #5d6670;
-    --line: #e3e6ea;
-    --brand: #d32f2f;
-    --brand-soft: #fdecea;
-    --brand-text: #b71c1c;
+    --line: #e2e5ec;
+    --brand: #283593;
+    --brand-2: #1a237e;
+    --brand-3: #3f51b5;
+    --brand-soft: #eceffa;
+    --link: #303f9f;
     --ok: #1b7f3b;
     --ok-soft: #e8f5ec;
-    --link: #c62828;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #121417;
-      --card: #1b1e22;
+      --bg: #111318;
+      --card: #1a1d24;
       --text: #e8eaed;
       --muted: #a2a9b1;
-      --line: #2c3137;
-      --brand: #ef5350;
-      --brand-soft: #2b1b1c;
-      --brand-text: #ff8a80;
+      --line: #2b303a;
+      --brand-soft: #1e2236;
+      --link: #9fa8da;
       --ok: #6fd28f;
-      --ok-soft: #17261c;
-      --link: #ff8a80;
+      --ok-soft: #16251b;
     }
   }
   * { box-sizing: border-box; }
@@ -52,19 +57,20 @@
   }
   a { color: var(--link); text-underline-offset: 2px; }
   .hero {
-    background: linear-gradient(135deg, #ef5350, #b71c1c);
+    background: linear-gradient(135deg, var(--brand-3), var(--brand-2));
     color: #fff;
     padding: 40px 16px 72px;
   }
   .hero-inner, main, footer { max-width: 800px; margin: 0 auto; }
   .brand { display: flex; align-items: center; gap: 16px; }
-  .icon {
-    width: 64px; height: 64px; flex: none;
-    border-radius: 16px; overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0,0,0,.25), 0 0 0 2px rgba(255,255,255,.35);
+  .logo {
+    width: 60px; height: 60px; flex: none;
+    display: grid; place-items: center;
+    background: #fff; border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.25);
   }
-  .icon svg { display: block; width: 100%; height: 100%; }
-  .app { font-size: 15px; opacity: .9; margin: 0; }
+  .logo svg { width: 36px; height: 36px; }
+  .dev { font-size: 14px; font-weight: 700; letter-spacing: .08em; opacity: .9; margin: 0; }
   h1 { font-size: clamp(26px, 6vw, 36px); line-height: 1.2; margin: 2px 0 0; }
   .meta { margin: 18px 0 0; font-size: 14px; opacity: .92; }
   .lang {
@@ -75,7 +81,7 @@
     color: #fff; text-decoration: none; font-size: 14px; font-weight: 600;
     padding: 6px 14px; border-radius: 999px;
   }
-  .lang a[aria-current="true"] { background: #fff; color: #b71c1c; }
+  .lang a[aria-current="true"] { background: #fff; color: var(--brand-2); }
   main { padding: 0 16px; margin-top: -48px; }
   article {
     background: var(--card);
@@ -92,7 +98,7 @@
     padding: 16px 18px;
     margin: 0 0 24px;
   }
-  .summary h2 { margin: 0 0 8px; font-size: 17px; color: var(--ok); border: 0; padding: 0; }
+  .summary h2 { margin: 0 0 8px; font-size: 17px; color: var(--ok); padding: 0; }
   .summary ul { margin: 0; padding: 0; list-style: none; }
   .summary li { position: relative; padding-left: 28px; margin: 6px 0; }
   .summary li::before {
@@ -115,11 +121,27 @@
   ul { padding-left: 22px; }
   li { margin: 4px 0; }
   .note {
-    border-left: 4px solid var(--brand);
+    border-left: 4px solid var(--brand-3);
     background: var(--brand-soft);
     border-radius: 0 10px 10px 0;
     padding: 12px 16px;
     margin: 14px 0;
+  }
+  .app-card {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 12px 0;
+    scroll-margin-top: 16px;
+  }
+  .app-card h3 { margin: 0; }
+  .app-card .pkg { margin: 2px 0 10px; font-size: 14px; color: var(--muted); }
+  .app-card dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; font-size: 15px; }
+  .app-card dt { color: var(--muted); }
+  .app-card dd { margin: 0; }
+  @media (max-width: 480px) {
+    .app-card dl { grid-template-columns: 1fr; gap: 0; }
+    .app-card dd { margin-bottom: 8px; }
   }
   .table-wrap { overflow-x: auto; margin: 10px 0; border: 1px solid var(--line); border-radius: 10px; }
   table { border-collapse: collapse; width: 100%; font-size: 15px; }
@@ -127,9 +149,7 @@
   tr:last-child td { border-bottom: 0; }
   th { background: var(--bg); font-size: 14px; color: var(--muted); font-weight: 600; }
   code { font: 13px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; overflow-wrap: anywhere; }
-  .contact {
-    border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-top: 10px;
-  }
+  .contact { border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-top: 10px; }
   .contact p { margin: 4px 0; }
   footer { padding: 24px 16px 40px; text-align: center; font-size: 13px; color: var(--muted); }
   @media print {
@@ -146,13 +166,15 @@
 <header class="hero">
   <div class="hero-inner">
     <div class="brand">
-      <div class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72"><rect x="0" y="0" width="108" height="108" fill="#E53935"/><path fill="#FFFFFF" d="M38,30h22l14,14v32c0,2.2 -1.8,4 -4,4H38c-2.2,0 -4,-1.8 -4,-4V34c0,-2.2 1.8,-4 4,-4z"/><path fill="#FFCDD2" d="M60,30v10c0,2.2 1.8,4 4,4h10z"/><path fill="#D32F2F" fill-rule="evenodd" d="M42.8,56.5V44.5H45.8A3.7,3.7 0 0 1 45.8,51.9H45.4V56.5ZM45.4,47.1H45.8A1.1,1.1 0 0 1 45.8,49.3H45.4ZM50.9,44.5H53.7A4.5,4.5 0 0 1 58.2,49V52A4.5,4.5 0 0 1 53.7,56.5H50.9ZM53.5,47.1H53.7A1.9,1.9 0 0 1 55.6,49V52A1.9,1.9 0 0 1 53.7,53.9H53.5ZM59.6,56.5V44.5H65.2V47.1H62.2V49.3H64.4V51.9H62.2V56.5Z"/><path fill="none" stroke="#1A237E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M44,73c3,-7 6,-13 8,-11.5 2,1.5 -4,12.5 -1.6,12.8 2,0.3 4.2,-6.5 5.8,-6 1.4,0.5 -0.4,4.5 1,4.8 1.4,0.3 2.8,-2.4 4.3,-2.4 1.1,0 1.1,1.5 2.8,1.5"/></svg></div>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path fill="#283593" d="M12 1.8 3.8 4.9v6c0 5.3 3.5 10 8.2 11.3 4.7-1.3 8.2-6 8.2-11.3v-6z"/><path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m8.3 12.1 2.6 2.6 4.8-5.1"/></svg>
+      </div>
       <div>
-        <p class="app">PDF View &amp; Editor Pro</p>
+        <p class="dev">MOBIMOKIDS</p>
         <h1 id="page-title">Kebijakan Privasi</h1>
       </div>
     </div>
-    <p class="meta" id="page-meta">Berlaku sejak 12 Oktober 2026 · Terakhir diperbarui 12 Oktober 2026</p>
+    <p class="meta" id="page-meta">Berlaku sejak 13 Oktober 2026 · Terakhir diperbarui 13 Oktober 2026</p>
     <div class="lang" role="group" aria-label="Bahasa / Language">
       <a href="#id" data-lang="id" aria-current="true">Bahasa Indonesia</a>
       <a href="#en" data-lang="en" aria-current="false">English</a>
@@ -166,9 +188,9 @@
   <section class="summary">
     <h2>Ringkasan</h2>
     <ul>
-      <li>Dokumen PDF Anda diproses langsung di perangkat dan <strong>tidak pernah diunggah</strong> ke server kami.</li>
+      <li>File dan konten Anda diproses langsung di perangkat dan <strong>tidak diunggah</strong> ke server kami.</li>
       <li>Tidak perlu akun. Kami tidak meminta nama, email, atau nomor telepon Anda.</li>
-      <li>Aplikasi ini gratis dan didukung iklan dari <strong>Google AdMob</strong>, serta memakai <strong>Google Analytics for Firebase</strong> untuk statistik pemakaian. Layanan ini mengumpulkan data perangkat tertentu, seperti dijelaskan di bawah.</li>
+      <li>Aplikasi kami dapat menampilkan iklan dari <strong>Google AdMob</strong> dan memakai <strong>Google Analytics for Firebase</strong> untuk statistik pemakaian. Layanan ini mengumpulkan data perangkat tertentu, seperti dijelaskan di bawah.</li>
       <li>Kami <strong>tidak menjual</strong> data pribadi Anda.</li>
     </ul>
   </section>
@@ -177,6 +199,7 @@
     <strong>Daftar isi</strong>
     <ol>
       <li><a href="#id-tentang">Tentang kebijakan ini</a></li>
+      <li><a href="#id-aplikasi">Aplikasi yang tercakup</a></li>
       <li><a href="#id-lokal">Data yang tetap di perangkat Anda</a></li>
       <li><a href="#id-pihak-ketiga">Data yang dikumpulkan layanan Google</a></li>
       <li><a href="#id-pilihan">Persetujuan &amp; pilihan privasi</a></li>
@@ -192,26 +215,52 @@
   </nav>
 
   <h2 id="id-tentang">1. Tentang kebijakan ini</h2>
-  <p>Kebijakan Privasi ini menjelaskan bagaimana aplikasi Android <strong>PDF View &amp; Editor Pro</strong> (nama paket <code>id.mobimokids.pdfpro</code>) memperlakukan data Anda. Aplikasi ini dikembangkan dan diterbitkan di Google Play oleh <strong>MOBIMOKIDS</strong> (“kami”).</p>
-  <p>Dengan menggunakan aplikasi, Anda memahami praktik yang dijelaskan di sini. Jika tidak setuju, Anda dapat berhenti menggunakan aplikasi dan menghapusnya kapan saja.</p>
+  <p>Kebijakan Privasi ini berlaku untuk semua aplikasi Android yang dikembangkan dan diterbitkan di Google Play oleh <strong>MOBIMOKIDS</strong> (“kami”). Daftar aplikasi tersebut ada di bagian 2 (“Aplikasi”). Kebijakan ini menjelaskan data apa yang diproses oleh Aplikasi, untuk apa, dan pilihan apa yang Anda miliki.</p>
+  <p>Beberapa Aplikasi memiliki catatan khusus di bagian 2. Catatan tersebut melengkapi kebijakan ini. Dengan menggunakan Aplikasi, Anda memahami praktik yang dijelaskan di sini. Jika tidak setuju, Anda dapat berhenti menggunakan Aplikasi dan menghapusnya kapan saja.</p>
 
-  <h2 id="id-lokal">2. Data yang tetap di perangkat Anda</h2>
-  <p>Fitur utama aplikasi, yaitu membaca, memilih &amp; menyalin teks, menandai, menambah teks, dan menandatangani PDF, sepenuhnya berjalan di perangkat Anda. Kami tidak memiliki server yang menerima dokumen Anda.</p>
+  <h2 id="id-aplikasi">2. Aplikasi yang tercakup</h2>
+
+  <section class="app-card" id="id-app-pdfpro">
+    <h3>PDF View &amp; Editor Pro</h3>
+    <p class="pkg"><code>id.mobimokids.pdfpro</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.pdfpro" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Iklan</dt><dd>Google AdMob (iklan layar penuh setelah membuka PDF)</dd>
+      <dt>Statistik</dt><dd>Google Analytics for Firebase</dd>
+      <dt>Ditujukan untuk</dt><dd>Pengguna umum</dd>
+      <dt>Catatan</dt>
+      <dd>Dokumen PDF diproses di perangkat dan tidak diunggah. Password PDF hanya dipakai selama dokumen terbuka dan tidak disimpan. Tanda tangan yang Anda simpan berada di penyimpanan privat aplikasi dan dapat dihapus dari daftar tanda tangan.</dd>
+    </dl>
+  </section>
+  <!-- Template aplikasi baru (ganti semua isinya, termasuk id="id-app-..."):
+  <section class="app-card" id="id-app-NAMASINGKAT">
+    <h3>Nama Aplikasi</h3>
+    <p class="pkg"><code>id.mobimokids.namapaket</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.namapaket" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Iklan</dt><dd>Google AdMob / Tidak ada</dd>
+      <dt>Statistik</dt><dd>Google Analytics for Firebase / Tidak ada</dd>
+      <dt>Ditujukan untuk</dt><dd>Pengguna umum / Anak-anak</dd>
+      <dt>Izin tambahan</dt><dd>Mis. kamera, untuk memindai dokumen (diproses di perangkat)</dd>
+      <dt>Catatan</dt><dd>Data khusus aplikasi ini dan cara menghapusnya.</dd>
+    </dl>
+  </section>
+  -->
+
+  <h2 id="id-lokal">3. Data yang tetap di perangkat Anda</h2>
+  <p>Fitur utama Aplikasi berjalan di perangkat Anda. Kami tidak memiliki server yang menerima file atau konten Anda, kecuali jika hal itu disebutkan secara jelas di kartu aplikasi pada bagian 2.</p>
   <ul>
-    <li><strong>Dokumen PDF.</strong> Aplikasi hanya dapat membuka file yang Anda pilih sendiri melalui pemilih file Android atau menu “Buka dengan”. Aplikasi tidak meminta izin untuk membaca seluruh penyimpanan Anda. Agar dapat diproses, salinan sementara dokumen disimpan di penyimpanan internal privat aplikasi. Salinan ini dihapus saat dokumen ditutup, dan sisa salinan lama dibersihkan otomatis. Hasil edit hanya disimpan ke lokasi yang Anda pilih.</li>
-    <li><strong>Password PDF.</strong> Password yang Anda ketik hanya dipakai untuk membuka dan menyimpan dokumen terenkripsi selama dokumen tersebut terbuka. Password tidak disimpan secara permanen dan tidak dikirim ke mana pun.</li>
-    <li><strong>Tanda tangan tersimpan.</strong> Tanda tangan yang Anda simpan untuk dipakai lagi disimpan sebagai garis vektor di penyimpanan privat aplikasi. Anda dapat menghapusnya kapan saja dari daftar tanda tangan; semuanya juga terhapus jika data aplikasi dihapus atau aplikasi di-uninstall.</li>
-    <li><strong>Cadangan Android.</strong> Jika fitur cadangan Android (Cadangan Google) aktif di perangkat Anda, sistem Android dapat ikut mencadangkan data aplikasi, termasuk tanda tangan tersimpan, ke akun Google Anda. Cadangan ini dikelola oleh Google dan sistem Android; kami tidak dapat mengaksesnya.</li>
-    <li><strong>Teks yang disalin</strong> masuk ke papan klip (clipboard) Android. Kami tidak membaca atau mengirim isi papan klip.</li>
-    <li><strong>Berbagi.</strong> Saat Anda membagikan PDF, salinan file dibuat sementara di cache aplikasi dan dikirim ke aplikasi yang Anda pilih (misalnya WhatsApp atau email). Setelah itu, kebijakan privasi aplikasi penerima yang berlaku.</li>
+    <li><strong>File dan konten Anda</strong> (misalnya dokumen, gambar, atau teks). Aplikasi hanya membuka file yang Anda pilih sendiri melalui pemilih file Android atau menu “Buka dengan”. Aplikasi tidak meminta izin membaca seluruh penyimpanan Anda. Jika diperlukan untuk pemrosesan, Aplikasi membuat salinan sementara di penyimpanan privatnya dan menghapusnya otomatis. Hasil kerja Anda hanya disimpan ke lokasi yang Anda pilih.</li>
+    <li><strong>Data yang disimpan Aplikasi</strong>, seperti pengaturan dan item yang Anda simpan untuk dipakai lagi (misalnya tanda tangan), berada di penyimpanan privat Aplikasi. Data ini terhapus jika Anda menghapusnya di Aplikasi, menghapus data aplikasi, atau meng-uninstall Aplikasi.</li>
+    <li><strong>Cadangan Android.</strong> Jika fitur cadangan Android (Cadangan Google) aktif, sistem Android dapat ikut mencadangkan data Aplikasi ke akun Google Anda. Cadangan ini dikelola oleh Google dan sistem Android; kami tidak dapat mengaksesnya.</li>
+    <li><strong>Papan klip.</strong> Teks yang Anda salin masuk ke papan klip (clipboard) Android. Kami tidak membaca atau mengirim isinya.</li>
+    <li><strong>Berbagi.</strong> Saat Anda membagikan file, salinannya diserahkan ke aplikasi yang Anda pilih (misalnya WhatsApp atau email). Setelah itu, kebijakan privasi aplikasi penerima yang berlaku.</li>
   </ul>
-  <div class="note">Nama file, isi dokumen, teks yang Anda pilih atau salin, gambar tanda tangan, dan password <strong>tidak pernah</strong> disertakan dalam data iklan maupun statistik.</div>
+  <div class="note">Nama file, isi file atau dokumen, teks yang Anda ketik atau salin, gambar, tanda tangan, dan password <strong>tidak pernah</strong> disertakan dalam data iklan maupun statistik.</div>
 
-  <h2 id="id-pihak-ketiga">3. Data yang dikumpulkan layanan Google</h2>
-  <p>Aplikasi memakai dua layanan dari Google LLC. Layanan ini dapat mengumpulkan dan memproses data tertentu secara otomatis saat perangkat Anda terhubung ke internet.</p>
+  <h2 id="id-pihak-ketiga">4. Data yang dikumpulkan layanan Google</h2>
+  <p>Aplikasi dapat memakai layanan dari Google LLC berikut; kartu aplikasi di bagian 2 menyebutkan layanan yang dipakai oleh setiap Aplikasi. Saat perangkat Anda terhubung ke internet, layanan ini dapat mengumpulkan dan memproses data tertentu secara otomatis. Jika suatu Aplikasi memakai layanan pihak ketiga lain, layanan itu juga disebutkan di kartunya.</p>
 
-  <h3>3.1 Google AdMob (iklan)</h3>
-  <p>Aplikasi dapat menampilkan iklan layar penuh (interstisial) setelah Anda membuka dokumen PDF, dengan jeda minimal antar-iklan. Untuk menampilkan iklan, Google Mobile Ads SDK dapat mengumpulkan:</p>
+  <h3>4.1 Google AdMob (iklan)</h3>
+  <p>Aplikasi yang didukung iklan memakai Google Mobile Ads SDK. Untuk menampilkan iklan, SDK ini dapat mengumpulkan:</p>
   <ul>
     <li>ID Iklan Android (Advertising ID) dan pengenal aplikasi/perangkat lain, misalnya App Set ID;</li>
     <li>alamat IP, yang dapat dipakai untuk memperkirakan lokasi umum (misalnya negara atau kota);</li>
@@ -220,68 +269,71 @@
   </ul>
   <p>Data ini dipakai untuk menampilkan dan mengukur iklan, mempersonalisasi iklan (jika diizinkan), mencegah penipuan dan penyalahgunaan, serta analitik. Pelajari lebih lanjut di <a href="https://policies.google.com/technologies/ads" rel="noopener">Cara Google menggunakan iklan</a> dan <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Cara Google menggunakan informasi dari situs atau aplikasi yang menggunakan layanannya</a>.</p>
 
-  <h3>3.2 Google Analytics for Firebase (statistik pemakaian)</h3>
-  <p>Kami memakai Google Analytics for Firebase untuk mengetahui berapa banyak orang yang memakai aplikasi, fitur mana yang berguna, dan masalah apa yang perlu diperbaiki. Data yang dapat dikumpulkan:</p>
+  <h3>4.2 Google Analytics for Firebase (statistik pemakaian)</h3>
+  <p>Kami memakai Google Analytics for Firebase untuk mengetahui berapa banyak orang yang memakai Aplikasi, fitur mana yang berguna, dan masalah apa yang perlu diperbaiki. Data yang dapat dikumpulkan:</p>
   <ul>
     <li>pengenal instance aplikasi acak, serta ID Iklan jika tersedia dan diizinkan;</li>
     <li>model perangkat, versi Android, versi aplikasi, bahasa, dan lokasi umum (negara/wilayah/kota) yang diperkirakan dari alamat IP;</li>
     <li>informasi penggunaan: pembukaan pertama, jumlah dan lama sesi, serta sumber pemasangan dari Google Play;</li>
-    <li>peristiwa fitur tanpa isi dokumen, yaitu: membuka PDF (dibuka dari aplikasi ini atau dari aplikasi lain, berpassword atau tidak, dapat diedit atau tidak, dan kisaran jumlah halaman), menyimpan, menempel tanda tangan (jenisnya), menyalin teks, dan membagikan.</li>
+    <li>peristiwa penggunaan fitur tanpa isi konten Anda, misalnya bahwa sebuah file dibuka, disimpan, atau dibagikan.</li>
   </ul>
-  <p>Data ini dilaporkan kepada kami secara agregat. Data ini tidak memuat nama, email, nomor telepon, atau isi dokumen Anda. Pelajari lebih lanjut di <a href="https://firebase.google.com/support/privacy" rel="noopener">Privasi dan keamanan di Firebase</a>.</p>
+  <p>Data ini dilaporkan kepada kami secara agregat. Data ini tidak memuat nama, email, nomor telepon, atau isi konten Anda. Pelajari lebih lanjut di <a href="https://firebase.google.com/support/privacy" rel="noopener">Privasi dan keamanan di Firebase</a>.</p>
   <p>Pemrosesan data oleh Google tunduk pada <a href="https://policies.google.com/privacy" rel="noopener">Kebijakan Privasi Google</a>.</p>
 
-  <h2 id="id-pilihan">4. Persetujuan &amp; pilihan privasi</h2>
+  <h2 id="id-pilihan">5. Persetujuan &amp; pilihan privasi</h2>
   <ul>
-    <li><strong>Wilayah Ekonomi Eropa, Inggris, dan Swiss.</strong> Saat pertama kali dibuka, aplikasi menampilkan formulir persetujuan dari Google (User Messaging Platform, berbasis IAB TCF). Di sana Anda dapat memilih apakah mengizinkan iklan yang dipersonalisasi dan pengukuran. Anda dapat mengubah pilihan kapan saja lewat menu <strong>⋮ → Pengaturan privasi iklan</strong>. Pilihan yang sama juga berlaku untuk Google Analytics: jika Anda tidak mengizinkan pengukuran, pengenal analitik tidak disimpan di perangkat Anda.</li>
+    <li><strong>Wilayah Ekonomi Eropa, Inggris, dan Swiss.</strong> Aplikasi yang didukung iklan menampilkan formulir persetujuan dari Google saat pertama kali dibuka (User Messaging Platform, berbasis IAB TCF). Di sana Anda dapat memilih apakah mengizinkan iklan yang dipersonalisasi dan pengukuran. Anda dapat mengubah pilihan kapan saja lewat menu aplikasi → <strong>Pengaturan privasi iklan</strong>. Pilihan yang sama juga berlaku untuk Google Analytics: jika Anda tidak mengizinkan pengukuran, pengenal analitik tidak disimpan di perangkat Anda.</li>
     <li>Pilihan privasi serupa juga ditampilkan di wilayah lain yang peraturannya mewajibkan hal tersebut.</li>
     <li><strong>ID Iklan.</strong> Anda dapat menghapus atau mereset ID Iklan kapan saja melalui <em>Setelan → Google → Iklan</em> (atau <em>Setelan → Privasi → Iklan</em>, tergantung perangkat). Setelah ID Iklan dihapus, iklan tidak lagi dipersonalisasi berdasarkan ID tersebut.</li>
     <li><strong>Personalisasi iklan Google</strong> dapat diatur di <a href="https://myadcenter.google.com/" rel="noopener">Pusat Iklan Saya</a>.</li>
-    <li><strong>Menghentikan semua pengumpulan data</strong>: uninstall aplikasi.</li>
+    <li><strong>Menghentikan semua pengumpulan data</strong> oleh suatu Aplikasi: uninstall Aplikasi tersebut.</li>
   </ul>
-  <p>Apa pun pilihan Anda, semua fitur aplikasi tetap dapat dipakai. Jika Anda menolak personalisasi, Anda mungkin tetap melihat iklan, tetapi iklan tersebut tidak dipersonalisasi.</p>
+  <p>Apa pun pilihan Anda, fitur Aplikasi tetap dapat dipakai. Jika Anda menolak personalisasi, Anda mungkin tetap melihat iklan, tetapi iklan tersebut tidak dipersonalisasi.</p>
 
-  <h2 id="id-izin">5. Izin aplikasi</h2>
-  <p>Aplikasi <strong>tidak</strong> meminta akses ke kamera, mikrofon, lokasi akurat (GPS), kontak, SMS, atau seluruh penyimpanan. Izin yang dipakai (sebagian ditambahkan otomatis oleh SDK Google):</p>
+  <h2 id="id-izin">6. Izin aplikasi</h2>
+  <p>Izin umum yang dapat dipakai Aplikasi (sebagian ditambahkan otomatis oleh SDK Google):</p>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Izin</th><th>Kegunaan</th></tr></thead>
       <tbody>
-        <tr><td>Akses internet &amp; status jaringan</td><td>Memuat iklan dan mengirim statistik pemakaian. Dokumen PDF tidak dikirim.</td></tr>
+        <tr><td>Akses internet &amp; status jaringan</td><td>Memuat iklan dan mengirim statistik pemakaian. File dan konten Anda tidak dikirim.</td></tr>
         <tr><td>ID Iklan (<code>AD_ID</code>) &amp; layanan iklan Android (<code>ACCESS_ADSERVICES_*</code>)</td><td>Menampilkan dan mengukur iklan sesuai pilihan privasi Anda.</td></tr>
         <tr><td>Rujukan pemasangan Google Play</td><td>Mengetahui sumber pemasangan aplikasi (Google Analytics).</td></tr>
         <tr><td>Status dasar telepon, wake lock, foreground service</td><td>Dipakai oleh SDK Google untuk menyesuaikan dengan jenis jaringan dan mengirim data di latar belakang dengan andal.</td></tr>
       </tbody>
     </table>
   </div>
+  <p>Izin sensitif, seperti kamera, mikrofon, lokasi, atau kontak, hanya dipakai jika disebutkan di kartu aplikasi pada bagian 2. Izin tersebut diminta saat fitur yang membutuhkannya dipakai, dan Anda dapat mencabutnya kapan saja di <em>Setelan → Aplikasi</em>.</p>
 
-  <h2 id="id-berbagi">6. Berbagi data</h2>
+  <h2 id="id-berbagi">7. Berbagi data</h2>
   <p>Kami tidak menjual, menyewakan, atau memperdagangkan data pribadi Anda. Data hanya dibagikan:</p>
   <ul>
-    <li>kepada Google (AdMob dan Firebase) untuk tujuan yang dijelaskan di bagian 3, termasuk mitra iklan Google sesuai pilihan persetujuan Anda; dan</li>
+    <li>kepada Google (AdMob dan Firebase) untuk tujuan yang dijelaskan di bagian 4, termasuk mitra iklan Google sesuai pilihan persetujuan Anda; dan</li>
     <li>jika diwajibkan oleh hukum, perintah pengadilan, atau permintaan resmi dari otoritas yang berwenang.</li>
   </ul>
 
-  <h2 id="id-keamanan">7. Keamanan</h2>
-  <p>Data yang dikirim oleh SDK Google dienkripsi saat transit (HTTPS/TLS). Dokumen Anda tidak pernah meninggalkan perangkat kecuali Anda sendiri yang membagikan atau menyimpannya ke lokasi lain, misalnya penyimpanan cloud. PDF yang dilindungi password tetap terlindungi dengan password yang sama setelah diedit. Meski begitu, tidak ada metode transmisi atau penyimpanan yang 100% aman.</p>
+  <h2 id="id-keamanan">8. Keamanan</h2>
+  <p>Data yang dikirim oleh SDK Google dienkripsi saat transit (HTTPS/TLS). File dan konten Anda tidak pernah meninggalkan perangkat kecuali Anda sendiri yang membagikan atau menyimpannya ke lokasi lain, misalnya penyimpanan cloud. Meski begitu, tidak ada metode transmisi atau penyimpanan yang 100% aman.</p>
 
-  <h2 id="id-retensi">8. Penyimpanan &amp; penghapusan data</h2>
+  <h2 id="id-retensi">9. Penyimpanan &amp; penghapusan data</h2>
   <ul>
-    <li><strong>Data di perangkat</strong> (salinan sementara, tanda tangan tersimpan, pilihan privasi) tetap di perangkat Anda sampai Anda menghapusnya, menghapus data aplikasi lewat <em>Setelan → Aplikasi</em>, atau meng-uninstall aplikasi.</li>
+    <li><strong>Data di perangkat</strong> tetap di perangkat Anda sampai Anda menghapusnya, menghapus data aplikasi lewat <em>Setelan → Aplikasi</em>, atau meng-uninstall Aplikasi.</li>
     <li><strong>Data Google Analytics</strong> tingkat pengguna disimpan paling lama 14 bulan, lalu dihapus otomatis. Laporan agregat (tanpa pengenal) dapat disimpan lebih lama.</li>
     <li><strong>Data iklan</strong> disimpan oleh Google sesuai <a href="https://policies.google.com/technologies/retention" rel="noopener">kebijakan retensi Google</a>.</li>
   </ul>
 
-  <h2 id="id-hak">9. Hak Anda</h2>
-  <p>Sesuai hukum yang berlaku, termasuk Undang-Undang No. 27 Tahun 2022 tentang Pelindungan Data Pribadi dan, bila relevan, GDPR, Anda berhak meminta akses, perbaikan, atau penghapusan data pribadi Anda. Anda juga berhak menarik persetujuan dan mengajukan keberatan atas pemrosesan. Karena kami tidak mengumpulkan nama, email, atau akun, kami umumnya tidak dapat mengaitkan data statistik dengan diri Anda. Cara tercepat untuk mengontrol data Anda adalah dengan pilihan di bagian 4. Untuk permintaan lain, hubungi kami dan kami akan membantu sebatas data yang dapat kami akses. Anda juga berhak mengajukan pengaduan kepada otoritas pelindungan data di negara Anda.</p>
+  <h2 id="id-hak">10. Hak Anda</h2>
+  <p>Sesuai hukum yang berlaku, termasuk Undang-Undang No. 27 Tahun 2022 tentang Pelindungan Data Pribadi dan, bila relevan, GDPR, Anda berhak meminta akses, perbaikan, atau penghapusan data pribadi Anda. Anda juga berhak menarik persetujuan dan mengajukan keberatan atas pemrosesan. Karena kami tidak mengumpulkan nama, email, atau akun, kami umumnya tidak dapat mengaitkan data statistik dengan diri Anda. Cara tercepat untuk mengontrol data Anda adalah dengan pilihan di bagian 5. Untuk permintaan lain, hubungi kami dan kami akan membantu sebatas data yang dapat kami akses. Anda juga berhak mengajukan pengaduan kepada otoritas pelindungan data di negara Anda.</p>
 
-  <h2 id="id-anak">10. Privasi anak</h2>
-  <p>Aplikasi ini ditujukan untuk pengguna umum dan tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan data pribadi dari anak-anak. Jika Anda adalah orang tua atau wali dan yakin anak Anda telah memberikan data melalui aplikasi ini, hubungi kami agar kami dapat membantu menghapusnya.</p>
+  <h2 id="id-anak">11. Privasi anak</h2>
+  <p>Kecuali kartu aplikasinya menyebutkan “Anak-anak”, Aplikasi ditujukan untuk pengguna umum dan tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan data pribadi dari anak-anak.</p>
+  <p>Aplikasi yang ditujukan untuk anak-anak mengikuti Kebijakan Keluarga Google Play. Di Aplikasi tersebut, kami tidak meminta data pribadi anak dan tidak mengumpulkan ID Iklan atau lokasi dari anak. Iklan (jika ada) hanya berasal dari SDK iklan yang tersertifikasi untuk keluarga dan tidak dipersonalisasi.</p>
+  <p>Jika Anda adalah orang tua atau wali dan yakin anak Anda telah memberikan data pribadi melalui Aplikasi, hubungi kami agar kami dapat membantu menghapusnya.</p>
 
-  <h2 id="id-perubahan">11. Perubahan kebijakan</h2>
-  <p>Kami dapat memperbarui kebijakan ini, misalnya jika fitur atau layanan yang dipakai berubah. Versi terbaru selalu tersedia di halaman ini, dengan tanggal “Terakhir diperbarui” di bagian atas. Untuk perubahan penting, kami juga akan memberi tahu melalui pembaruan aplikasi atau halaman aplikasi di Google Play.</p>
+  <h2 id="id-perubahan">12. Perubahan kebijakan</h2>
+  <p>Kami dapat memperbarui kebijakan ini, misalnya saat menambah Aplikasi baru atau saat fitur dan layanan yang dipakai berubah. Versi terbaru selalu tersedia di halaman ini, dengan tanggal “Terakhir diperbarui” di bagian atas. Untuk perubahan penting, kami juga akan memberi tahu melalui pembaruan Aplikasi atau halaman Aplikasi di Google Play.</p>
 
-  <h2 id="id-kontak">12. Hubungi kami</h2>
+  <h2 id="id-kontak">13. Hubungi kami</h2>
   <p>Jika Anda memiliki pertanyaan atau permintaan terkait privasi, silakan hubungi:</p>
   <div class="contact">
     <p><strong>MOBIMOKIDS</strong></p>
@@ -294,9 +346,9 @@
   <section class="summary">
     <h2>Summary</h2>
     <ul>
-      <li>Your PDF documents are processed on your device and are <strong>never uploaded</strong> to our servers.</li>
+      <li>Your files and content are processed on your device and are <strong>not uploaded</strong> to our servers.</li>
       <li>No account is needed. We do not ask for your name, email or phone number.</li>
-      <li>The app is free and supported by ads from <strong>Google AdMob</strong>. It uses <strong>Google Analytics for Firebase</strong> for usage statistics. These services collect certain device data, as described below.</li>
+      <li>Our apps may show ads from <strong>Google AdMob</strong> and use <strong>Google Analytics for Firebase</strong> for usage statistics. These services collect certain device data, as described below.</li>
       <li>We <strong>do not sell</strong> your personal data.</li>
     </ul>
   </section>
@@ -305,6 +357,7 @@
     <strong>Contents</strong>
     <ol>
       <li><a href="#en-about">About this policy</a></li>
+      <li><a href="#en-apps">Apps covered</a></li>
       <li><a href="#en-local">Data that stays on your device</a></li>
       <li><a href="#en-third-party">Data collected by Google services</a></li>
       <li><a href="#en-choices">Consent &amp; privacy choices</a></li>
@@ -320,26 +373,52 @@
   </nav>
 
   <h2 id="en-about">1. About this policy</h2>
-  <p>This Privacy Policy explains how the Android app <strong>PDF View &amp; Editor Pro</strong> (package name <code>id.mobimokids.pdfpro</code>) handles your data. The app is developed and published on Google Play by <strong>MOBIMOKIDS</strong> (“we”, “us”).</p>
-  <p>By using the app you acknowledge the practices described here. If you do not agree, you can stop using the app and uninstall it at any time.</p>
+  <p>This Privacy Policy applies to all Android apps developed and published on Google Play by <strong>MOBIMOKIDS</strong> (“we”, “us”). These apps are listed in section 2 (the “Apps”). This policy explains what data the Apps process, why, and what choices you have.</p>
+  <p>Some Apps have specific notes in section 2. Those notes supplement this policy. By using an App you acknowledge the practices described here. If you do not agree, you can stop using the App and uninstall it at any time.</p>
 
-  <h2 id="en-local">2. Data that stays on your device</h2>
-  <p>The app’s core features (reading, selecting and copying text, marking up, adding text and signing PDFs) run entirely on your device. We have no server that receives your documents.</p>
+  <h2 id="en-apps">2. Apps covered</h2>
+
+  <section class="app-card" id="en-app-pdfpro">
+    <h3>PDF View &amp; Editor Pro</h3>
+    <p class="pkg"><code>id.mobimokids.pdfpro</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.pdfpro" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Ads</dt><dd>Google AdMob (full-screen ad after opening a PDF)</dd>
+      <dt>Statistics</dt><dd>Google Analytics for Firebase</dd>
+      <dt>Audience</dt><dd>General audience</dd>
+      <dt>Notes</dt>
+      <dd>PDF documents are processed on the device and never uploaded. A PDF password is used only while the document is open and is never stored. Saved signatures stay in the app’s private storage and can be deleted from the signature list.</dd>
+    </dl>
+  </section>
+  <!-- New app template (replace everything, including id="en-app-..."):
+  <section class="app-card" id="en-app-SHORTNAME">
+    <h3>App Name</h3>
+    <p class="pkg"><code>id.mobimokids.packagename</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.packagename" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Ads</dt><dd>Google AdMob / None</dd>
+      <dt>Statistics</dt><dd>Google Analytics for Firebase / None</dd>
+      <dt>Audience</dt><dd>General audience / Children</dd>
+      <dt>Extra permissions</dt><dd>E.g. camera, to scan documents (processed on the device)</dd>
+      <dt>Notes</dt><dd>Data specific to this app and how to delete it.</dd>
+    </dl>
+  </section>
+  -->
+
+  <h2 id="en-local">3. Data that stays on your device</h2>
+  <p>The Apps’ core features run on your device. We have no server that receives your files or content, unless this is clearly stated in the app’s card in section 2.</p>
   <ul>
-    <li><strong>PDF documents.</strong> The app can only open files that you pick yourself, through the Android file picker or the “Open with” menu. It does not request permission to read your whole storage. To process a document, the app keeps a temporary copy in its private internal storage. This copy is deleted when you close the document, and leftover copies are cleaned up automatically. Edited files are saved only to the location you choose.</li>
-    <li><strong>PDF passwords.</strong> A password you enter is used only to open and save that encrypted document while it is open. Passwords are never stored permanently or sent anywhere.</li>
-    <li><strong>Saved signatures.</strong> Signatures you save for reuse are stored as vector strokes in the app’s private storage. You can delete them at any time from the signature list. They are also removed when you clear the app’s data or uninstall the app.</li>
-    <li><strong>Android backup.</strong> If Android backup (Google backup) is turned on for your device, the Android system may include this app’s data, including saved signatures, in a backup to your Google Account. That backup is managed by Google and Android, and we cannot access it.</li>
-    <li><strong>Copied text</strong> goes to the Android clipboard. We do not read or transmit clipboard contents.</li>
-    <li><strong>Sharing.</strong> When you share a PDF, the app makes a temporary copy in its cache and hands it to the app you choose (for example WhatsApp or email). That app’s privacy policy then applies.</li>
+    <li><strong>Your files and content</strong> (such as documents, images or text). The Apps open only files that you pick yourself, through the Android file picker or the “Open with” menu. They do not request permission to read your whole storage. Where processing requires it, an App keeps a temporary copy in its private storage and deletes it automatically. Your work is saved only to the location you choose.</li>
+    <li><strong>Data the Apps store</strong>, such as settings and items you save for reuse (for example signatures), stays in the App’s private storage. It is removed when you delete it in the App, clear the app’s data, or uninstall the App.</li>
+    <li><strong>Android backup.</strong> If Android backup (Google backup) is turned on, the Android system may include an App’s data in a backup to your Google Account. That backup is managed by Google and Android, and we cannot access it.</li>
+    <li><strong>Clipboard.</strong> Text you copy goes to the Android clipboard. We do not read or transmit clipboard contents.</li>
+    <li><strong>Sharing.</strong> When you share a file, a copy is handed to the app you choose (for example WhatsApp or email). That app’s privacy policy then applies.</li>
   </ul>
-  <div class="note">File names, document content, text you select or copy, signature images and passwords are <strong>never</strong> included in advertising or analytics data.</div>
+  <div class="note">File names, file or document content, text you type or copy, images, signatures and passwords are <strong>never</strong> included in advertising or analytics data.</div>
 
-  <h2 id="en-third-party">3. Data collected by Google services</h2>
-  <p>The app uses two services provided by Google LLC. When your device is online, they may automatically collect and process certain data.</p>
+  <h2 id="en-third-party">4. Data collected by Google services</h2>
+  <p>The Apps may use the following services from Google LLC; each app’s card in section 2 lists the services it uses. When your device is online, these services may automatically collect and process certain data. If an App uses any other third-party service, it is also listed in that app’s card.</p>
 
-  <h3>3.1 Google AdMob (advertising)</h3>
-  <p>The app may show a full-screen (interstitial) ad after you open a PDF, with a minimum interval between ads. To serve ads, the Google Mobile Ads SDK may collect:</p>
+  <h3>4.1 Google AdMob (advertising)</h3>
+  <p>Ad-supported Apps use the Google Mobile Ads SDK. To serve ads, the SDK may collect:</p>
   <ul>
     <li>the Android Advertising ID and other app or device identifiers, such as the App Set ID;</li>
     <li>your IP address, which may be used to estimate your general location (for example, country or city);</li>
@@ -348,68 +427,71 @@
   </ul>
   <p>This data is used to deliver and measure ads, to personalise ads (where permitted), to prevent fraud and abuse, and for analytics. Learn more in <a href="https://policies.google.com/technologies/ads" rel="noopener">How Google uses advertising</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
 
-  <h3>3.2 Google Analytics for Firebase (usage statistics)</h3>
-  <p>We use Google Analytics for Firebase to understand how many people use the app, which features are useful, and what needs fixing. It may collect:</p>
+  <h3>4.2 Google Analytics for Firebase (usage statistics)</h3>
+  <p>We use Google Analytics for Firebase to understand how many people use the Apps, which features are useful, and what needs fixing. It may collect:</p>
   <ul>
     <li>a random app-instance identifier, and the Advertising ID where available and permitted;</li>
     <li>device model, Android version, app version, language, and general location (country, region or city) estimated from your IP address;</li>
     <li>usage information: first open, number and length of sessions, and the Google Play install source;</li>
-    <li>feature events without document content: opening a PDF (whether it was opened in this app or from another app, whether it is password-protected, whether it is editable, and its page-count range), saving, placing a signature (its type), copying text, and sharing.</li>
+    <li>feature-usage events without your content, for example that a file was opened, saved or shared.</li>
   </ul>
-  <p>We see this data as aggregated reports. It does not include your name, email, phone number or document content. Learn more in <a href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and Security in Firebase</a>.</p>
+  <p>We see this data as aggregated reports. It does not include your name, email, phone number or content. Learn more in <a href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and Security in Firebase</a>.</p>
   <p>Google’s processing of data is governed by the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
 
-  <h2 id="en-choices">4. Consent &amp; privacy choices</h2>
+  <h2 id="en-choices">5. Consent &amp; privacy choices</h2>
   <ul>
-    <li><strong>European Economic Area, UK and Switzerland.</strong> On first launch, the app shows Google’s consent form (User Messaging Platform, based on the IAB TCF). There you can choose whether to allow personalised ads and measurement. You can change your choices at any time from <strong>⋮ → Ad privacy settings</strong>. The same choices apply to Google Analytics: if you do not allow measurement, analytics identifiers are not stored on your device.</li>
+    <li><strong>European Economic Area, UK and Switzerland.</strong> Ad-supported Apps show Google’s consent form on first launch (User Messaging Platform, based on the IAB TCF). There you can choose whether to allow personalised ads and measurement. You can change your choices at any time from the app menu → <strong>Ad privacy settings</strong>. The same choices apply to Google Analytics: if you do not allow measurement, analytics identifiers are not stored on your device.</li>
     <li>Similar privacy choices are also shown in other regions where the law requires them.</li>
     <li><strong>Advertising ID.</strong> You can delete or reset your Advertising ID at any time in <em>Settings → Google → Ads</em> (or <em>Settings → Privacy → Ads</em>, depending on your device). Once it is deleted, ads are no longer personalised using that ID.</li>
     <li><strong>Google ad personalisation</strong> can be managed in <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</li>
-    <li><strong>To stop all data collection</strong>, uninstall the app.</li>
+    <li><strong>To stop all data collection</strong> by an App, uninstall that App.</li>
   </ul>
-  <p>All features of the app keep working whatever you choose. If you decline personalisation, you may still see ads, but they will not be personalised.</p>
+  <p>The Apps keep working whatever you choose. If you decline personalisation, you may still see ads, but they will not be personalised.</p>
 
-  <h2 id="en-permissions">5. App permissions</h2>
-  <p>The app does <strong>not</strong> request access to your camera, microphone, precise location (GPS), contacts, SMS or whole storage. It uses the permissions below; some are added automatically by Google’s SDKs.</p>
+  <h2 id="en-permissions">6. App permissions</h2>
+  <p>Common permissions the Apps may use (some are added automatically by Google’s SDKs):</p>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
       <tbody>
-        <tr><td>Internet &amp; network state</td><td>Loading ads and sending usage statistics. PDF documents are never sent.</td></tr>
+        <tr><td>Internet &amp; network state</td><td>Loading ads and sending usage statistics. Your files and content are never sent.</td></tr>
         <tr><td>Advertising ID (<code>AD_ID</code>) &amp; Android ad services (<code>ACCESS_ADSERVICES_*</code>)</td><td>Serving and measuring ads according to your privacy choices.</td></tr>
         <tr><td>Google Play install referrer</td><td>Identifying how the app was installed (Google Analytics).</td></tr>
         <tr><td>Basic phone state, wake lock, foreground service</td><td>Used by Google’s SDKs to adapt to the network type and to send data reliably in the background.</td></tr>
       </tbody>
     </table>
   </div>
+  <p>Sensitive permissions, such as camera, microphone, location or contacts, are used only if they are listed in the app’s card in section 2. They are requested when you use the feature that needs them, and you can revoke them at any time in <em>Settings → Apps</em>.</p>
 
-  <h2 id="en-sharing">6. Data sharing</h2>
+  <h2 id="en-sharing">7. Data sharing</h2>
   <p>We do not sell, rent or trade your personal data. Data is shared only:</p>
   <ul>
-    <li>with Google (AdMob and Firebase) for the purposes described in section 3, including Google’s advertising partners according to your consent choices; and</li>
+    <li>with Google (AdMob and Firebase) for the purposes described in section 4, including Google’s advertising partners according to your consent choices; and</li>
     <li>when required by law, a court order or a lawful request from a competent authority.</li>
   </ul>
 
-  <h2 id="en-security">7. Security</h2>
-  <p>Data sent by Google’s SDKs is encrypted in transit (HTTPS/TLS). Your documents never leave your device unless you share them yourself or save them somewhere else, such as cloud storage. Password-protected PDFs stay protected with the same password after editing. However, no method of transmission or storage is completely secure.</p>
+  <h2 id="en-security">8. Security</h2>
+  <p>Data sent by Google’s SDKs is encrypted in transit (HTTPS/TLS). Your files and content never leave your device unless you share them yourself or save them somewhere else, such as cloud storage. However, no method of transmission or storage is completely secure.</p>
 
-  <h2 id="en-retention">8. Retention &amp; deletion</h2>
+  <h2 id="en-retention">9. Retention &amp; deletion</h2>
   <ul>
-    <li><strong>On-device data</strong> (temporary copies, saved signatures, privacy choices) stays on your device until you delete it. You can also clear the app’s data in <em>Settings → Apps</em>, or uninstall the app.</li>
+    <li><strong>On-device data</strong> stays on your device until you delete it, clear the app’s data in <em>Settings → Apps</em>, or uninstall the App.</li>
     <li><strong>Google Analytics</strong> user-level data is kept for at most 14 months and then deleted automatically. Aggregated reports, which contain no identifiers, may be kept longer.</li>
     <li><strong>Advertising data</strong> is retained by Google according to <a href="https://policies.google.com/technologies/retention" rel="noopener">Google’s retention policy</a>.</li>
   </ul>
 
-  <h2 id="en-rights">9. Your rights</h2>
-  <p>Under applicable law, including Indonesia’s Personal Data Protection Law (Law No. 27 of 2022) and, where relevant, the GDPR, you have the right to request access to, correction of, or deletion of your personal data. You may also withdraw consent and object to processing. Because we do not collect names, emails or accounts, we generally cannot link analytics data to you personally. The quickest way to control your data is through the choices in section 4. For any other request, contact us and we will help as far as the data is accessible to us. You also have the right to complain to the data protection authority in your country.</p>
+  <h2 id="en-rights">10. Your rights</h2>
+  <p>Under applicable law, including Indonesia’s Personal Data Protection Law (Law No. 27 of 2022) and, where relevant, the GDPR, you have the right to request access to, correction of, or deletion of your personal data. You may also withdraw consent and object to processing. Because we do not collect names, emails or accounts, we generally cannot link analytics data to you personally. The quickest way to control your data is through the choices in section 5. For any other request, contact us and we will help as far as the data is accessible to us. You also have the right to complain to the data protection authority in your country.</p>
 
-  <h2 id="en-children">10. Children’s privacy</h2>
-  <p>The app is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal data from children. If you are a parent or guardian and believe your child has provided data through the app, please contact us so we can help delete it.</p>
+  <h2 id="en-children">11. Children’s privacy</h2>
+  <p>Unless an app’s card says “Children”, the App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal data from children.</p>
+  <p>Apps designed for children follow the Google Play Families Policy. In those Apps, we do not ask for children’s personal data and do not collect the Advertising ID or location from children. Ads, if any, come only from ad SDKs certified for families and are not personalised.</p>
+  <p>If you are a parent or guardian and believe your child has provided personal data through an App, please contact us so we can help delete it.</p>
 
-  <h2 id="en-changes">11. Changes to this policy</h2>
-  <p>We may update this policy, for example when the app’s features or the services it uses change. The latest version is always available on this page, with the “Last updated” date shown at the top. We will also announce significant changes through an app update or the app’s Google Play listing.</p>
+  <h2 id="en-changes">12. Changes to this policy</h2>
+  <p>We may update this policy, for example when we add a new App or when the features or services used change. The latest version is always available on this page, with the “Last updated” date shown at the top. We will also announce significant changes through an App update or the App’s Google Play listing.</p>
 
-  <h2 id="en-contact">12. Contact us</h2>
+  <h2 id="en-contact">13. Contact us</h2>
   <p>If you have questions or requests about privacy, please contact:</p>
   <div class="contact">
     <p><strong>MOBIMOKIDS</strong></p>
@@ -418,17 +500,17 @@
 </article>
 </main>
 
-<footer>© 2026 MOBIMOKIDS · PDF View &amp; Editor Pro</footer>
+<footer>© 2026 MOBIMOKIDS</footer>
 
 <script>
   (function () {
     var root = document.documentElement;
     root.classList.add("js");
     var text = {
-      id: { title: "Kebijakan Privasi", doc: "Kebijakan Privasi – PDF View & Editor Pro",
-            meta: "Berlaku sejak 12 Oktober 2026 · Terakhir diperbarui 12 Oktober 2026" },
-      en: { title: "Privacy Policy", doc: "Privacy Policy – PDF View & Editor Pro",
-            meta: "Effective 12 October 2026 · Last updated 12 October 2026" }
+      id: { title: "Kebijakan Privasi", doc: "Kebijakan Privasi – MOBIMOKIDS",
+            meta: "Berlaku sejak 13 Oktober 2026 · Terakhir diperbarui 13 Oktober 2026" },
+      en: { title: "Privacy Policy", doc: "Privacy Policy – MOBIMOKIDS",
+            meta: "Effective 13 October 2026 · Last updated 13 October 2026" }
     };
     function langOf(hash) {
       return /^#en(-|$)/.test(hash) ? "en" : /^#id(-|$)/.test(hash) ? "id" : null;
@@ -445,9 +527,16 @@
         links[i].setAttribute("aria-current", String(links[i].getAttribute("data-lang") === lang));
       }
     }
+    function scrollToHash() {
+      // A deep link such as #en-app-pdfpro: scroll again now that the other language is hidden.
+      var h = location.hash.slice(1);
+      var el = h && h !== "id" && h !== "en" && document.getElementById(h);
+      if (el) el.scrollIntoView();
+    }
     var q = (location.search.match(/[?&]lang=(id|en)/) || [])[1];
     var nav = (navigator.language || "id").toLowerCase();
     show(q || langOf(location.hash) || (nav.indexOf("id") === 0 || nav.indexOf("in") === 0 ? "id" : "en"));
+    scrollToHash();
     window.addEventListener("hashchange", function () {
       var l = langOf(location.hash);
       if (l) show(l);
