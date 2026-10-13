@@ -3,7 +3,7 @@
   Kebijakan Privasi umum untuk semua aplikasi Android MOBIMOKIDS.
 
   Menambah aplikasi baru: salin satu blok <section class="app-card"> di bagian 2, di versi Indonesia (id="id")
-  DAN versi Inggris (id="en"); template ada di komentar tepat di bawah kartu PDF View & Editor Pro.
+  DAN versi Inggris (id="en"); template ada di komentar tepat di bawah kartu aplikasi terakhir.
   Jika aplikasi baru memakai layanan atau izin yang belum disebut di halaman ini (misalnya kamera, lokasi,
   login, atau server sendiri), tulis di kartunya dan perbarui tanggal "Terakhir diperbarui" (ada di header
   dan di script paling bawah).
@@ -231,6 +231,18 @@
       <dd>Dokumen PDF diproses di perangkat dan tidak diunggah. Password PDF hanya dipakai selama dokumen terbuka dan tidak disimpan. Tanda tangan yang Anda simpan berada di penyimpanan privat aplikasi dan dapat dihapus dari daftar tanda tangan.</dd>
     </dl>
   </section>
+
+  <section class="app-card" id="id-app-watersort">
+    <h3>Water Sort: Color Magic Puzzle</h3>
+    <p class="pkg"><code>id.mobimokids.water_sort</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.water_sort" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Iklan</dt><dd>Google AdMob (iklan layar penuh setelah setiap 2 level selesai)</dd>
+      <dt>Statistik</dt><dd>Google Analytics for Firebase</dd>
+      <dt>Ditujukan untuk</dt><dd>Pengguna umum</dd>
+      <dt>Catatan</dt>
+      <dd>Game ini tidak membuka file Anda dan tidak meminta izin sensitif. Progres permainan (level, bintang, koin) dan pengaturan (bahasa, suara, getaran) disimpan di penyimpanan privat aplikasi dan terhapus saat Anda menghapus data aplikasi atau meng-uninstall-nya. Statistik hanya mencatat peristiwa permainan, misalnya level dimulai atau diselesaikan, jumlah langkah, bintang, serta pemakaian petunjuk dan botol tambahan. Koin hanya didapat dari bermain; tidak ada pembelian dalam aplikasi. Pilihan privasi iklan dapat diubah lewat tautan <strong>Pengaturan privasi</strong> di layar utama, yang muncul di wilayah yang mewajibkannya.</dd>
+    </dl>
+  </section>
   <!-- Template aplikasi baru (ganti semua isinya, termasuk id="id-app-..."):
   <section class="app-card" id="id-app-NAMASINGKAT">
     <h3>Nama Aplikasi</h3>
@@ -389,6 +401,18 @@
       <dd>PDF documents are processed on the device and never uploaded. A PDF password is used only while the document is open and is never stored. Saved signatures stay in the app’s private storage and can be deleted from the signature list.</dd>
     </dl>
   </section>
+
+  <section class="app-card" id="en-app-watersort">
+    <h3>Water Sort: Color Magic Puzzle</h3>
+    <p class="pkg"><code>id.mobimokids.water_sort</code> · <a href="https://play.google.com/store/apps/details?id=id.mobimokids.water_sort" rel="noopener">Google Play</a></p>
+    <dl>
+      <dt>Ads</dt><dd>Google AdMob (full-screen ad after every 2 completed levels)</dd>
+      <dt>Statistics</dt><dd>Google Analytics for Firebase</dd>
+      <dt>Audience</dt><dd>General audience</dd>
+      <dt>Notes</dt>
+      <dd>The game does not open your files and requests no sensitive permissions. Game progress (levels, stars, coins) and settings (language, sound, vibration) are kept in the app’s private storage and are removed when you clear the app’s data or uninstall it. Statistics only record gameplay events, such as a level being started or completed, the number of moves, stars, and the use of hints and extra bottles. Coins are earned only by playing; there are no in-app purchases. Ad privacy choices can be changed from the <strong>Privacy settings</strong> link on the home screen, which appears in regions where the law requires it.</dd>
+    </dl>
+  </section>
   <!-- New app template (replace everything, including id="en-app-..."):
   <section class="app-card" id="en-app-SHORTNAME">
     <h3>App Name</h3>
@@ -507,8 +531,10 @@
     var root = document.documentElement;
     root.classList.add("js");
     var text = {
-      id: { title: "Kebijakan Privasi", doc: "Kebijakan Privasi – MOBIMOKIDS"},
-      en: { title: "Privacy Policy", doc: "Privacy Policy – MOBIMOKIDS"}
+      id: { title: "Kebijakan Privasi", doc: "Kebijakan Privasi – MOBIMOKIDS",
+            meta: "Berlaku sejak 13 Oktober 2026 · Terakhir diperbarui 13 Oktober 2026" },
+      en: { title: "Privacy Policy", doc: "Privacy Policy – MOBIMOKIDS",
+            meta: "Effective 13 October 2026 · Last updated 13 October 2026" }
     };
     function langOf(hash) {
       return /^#en(-|$)/.test(hash) ? "en" : /^#id(-|$)/.test(hash) ? "id" : null;
